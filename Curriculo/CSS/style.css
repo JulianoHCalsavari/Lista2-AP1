@@ -1,0 +1,43 @@
+/* Responsividade */
+
+
+/* All */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Main */
+main{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    row-gap: 10px;
+}
+
+/* Aside */
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+#lateral{
+    background-color: lightblue;
+
+}
+
+.topicos{
+
+}
+
+.lista{
+
+}
+
+
+
+#infos{
+
+}
