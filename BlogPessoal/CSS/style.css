@@ -1,72 +1,66 @@
-body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
+*{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 3px 0px 3px;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+header{
+    height: 100px;
+    width: 100%;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 34px;
+    font-weight: bolder;
+    font-style: italic;
     text-align: center;
+    color: teal;
+    line-height: 100px;
+    background-color: lightblue;
 }
 
-h1 {
-    margin: 0;
-    font-size: 2.5rem;
+ol{
+    margin-left: 15px;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+a img{
+    border-radius: 20px;
 }
 
-.post {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
-    position: relative;
+.posts{
+    background-color: aliceblue;
+    display: flexbox;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
-.post h2 {
-    font-size: 1.5rem;
-    margin: 0;
+.postall{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    padding: 10px 5px 10px 5px;
+    row-gap: 10px;
 }
 
-.post p {
-    font-size: 1rem;
-    color: #555;
+.postrow1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+    row-gap: 30px;
+    list-style-type: upper-roman;
 }
 
-.post img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
+.ulgrid{
+    display: grid;
+    grid-template-columns: 20% 20%;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
+.listas{
+    background-color: rgb(228, 241, 253);
+}
+
+#title2{
     text-align: center;
-    padding: 10px;
-}
-
-/* Estilos Responsivos */
-@media screen and (max-width: 600px) {
-    .container {
-        padding: 10px;
-    }
-    .post {
-        padding: 10px;
-    }
-}
-
-/* Estilos para Tablets */
-@media screen and (min-width: 601px) and (max-width: 1024px) {
-    .container {
-        max-width: 600px;
-    }
+    color: rgb(63, 63, 240);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
